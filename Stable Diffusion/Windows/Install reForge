@@ -3,6 +3,9 @@ If you have already had OG A1111 and you are familiar with git (OG = Original)
 Go to "C:\Stable_Diffusion\stable-diffusion-webui"
 Right Click Mouse -> Git Bash Here
 
+git config --global user.name "di"
+git config --global user.email "di@example.com"
+
 git remote add reForge https://github.com/Panchovix/stable-diffusion-webui-reForge
 git branch Panchovix/main
 git checkout Panchovix/main
@@ -11,5 +14,20 @@ git branch -u reForge/main
 git stash
 git pull
 
-To go back to OG A1111, just do git checkout master or git checkout main.
-If you got stuck in a merge to resolve conflicts, you can go back with git merge --abort
+To go back to OG A1111, just do "git checkout master" or git checkout main.
+If you got stuck in a merge to resolve conflicts, you can go back with "git merge --abort"
+
+
+Как вернуться назад в OG A1111 (classic)?
+    Когда хочешь вернуться:
+    git checkout master
+    И снова запускаешь тем же .bat.
+
+Как вернуть reForge после OG A1111?
+    git checkout Panchovix/main
+
+
+Теперь у тебя две параллельные версии SD WebUI
+    master → оригинальный A1111 (OG)
+    Panchovix/main → reForge
+Они полностью независимы.
