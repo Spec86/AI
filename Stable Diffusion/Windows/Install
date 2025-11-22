@@ -1,0 +1,20 @@
+1. Install python-3.10.6-amd64.exe
+    C:\Users\*\AppData\Local\Programs\Python\Python310
+2. Install Notepad++
+3. Install Git
+4. Create folder: "C:\Stable_Diffusion"
+5. Go to "C:\Stable_Diffusion"
+6. Right Click Mouse -> Git Bash Here
+7. git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+8. Close terminal 
+9. Go to "C:\Stable_Diffusion\stable-diffusion-webui\models\Stable-diffusion" and put model (checkpoint) from Civitai.
+10. https://civitai.com/
+11. Models
+12. Filters
+13. Checkpoint
+14. SDXL 1.0
+15. SDXL Lightning
+16. Download model (checkpoint) epiCRealism XL
+17. Put model (checkpoint) epiCRealism XL into "C:\Stable_Diffusion\stable-diffusion-webui\models\Stable-diffusion"
+18. Go to "C:\Stable_Diffusion\stable-diffusion-webui"
+19. Run webui-user.bat
