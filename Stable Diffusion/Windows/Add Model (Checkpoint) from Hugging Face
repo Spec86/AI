@@ -1,0 +1,17 @@
+Скачивание модели Stable Diffusion XL:
+
+    Скачайте модель sd_xl_base_1.0.safetensors с Hugging Face. https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors?download=true
+    Переместите скачанный файл sd_xl_base_1.0.safetensors в папку stable-diffusion-webui/models/Stable-diffusion.
+
+    Скачайте модель sd_xl_refiner_1.0.safetensors с Hugging Face. https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors?download=true
+    Переместите скачанный файл sd_xl_refiner_1.0.safetensors в папку stable-diffusion-webui/models/Stable-diffusion.
+
+    Скачайте модель sdxl_vae.safetensors с Hugging Face. https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors?download=true
+    Переместите скачанный файл sdxl_vae.safetensors в папку stable-diffusion-webui/models/VAE.
+
+
+Скачивание моделей ControlNet для Stable Diffusion XL
+
+    Скачайте модель controlnet-union-sdxl-1.0 с Hugging Face. https://huggingface.co/xinsir/controlnet-tile-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors?download=true
+    Будет скачен файл diffusion_pytorch_model.safetensors необходимо переименовать в controlnet_union_sdxl_1.0.safetensors
+    Переместите скачанный файл controlnet_union_sdxl_1.0.safetensors в папку stable-diffusion-webui/models/ControlNet.
