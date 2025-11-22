@@ -1,6 +1,7 @@
 You have AUTOMATIC1111 and you know Git
 If you have already had OG A1111 and you are familiar with git (OG = Original)
 Go to "C:\Stable_Diffusion\stable-diffusion-webui"
+Right Click Mouse -> Git Bash Here
 
 git remote add reForge https://github.com/Panchovix/stable-diffusion-webui-reForge
 git branch Panchovix/main
