@@ -4,6 +4,12 @@ Install Anaconda
     cd C:\Stable_Diffusion\stable-diffusion-webui
     python launch.py
 
+Delete folder C:\Stable_Diffusion\stable-diffusion-webui\venv
+    Go to Anaconda Prompt
+    conda activate sd
+    cd C:\Stable_Diffusion\stable-diffusion-webui
+    python launch.py
+
 Починить webui-user.bat, чтобы работать через Conda
 Открываем файл:
     webui-user.bat
