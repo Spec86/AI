@@ -1,5 +1,6 @@
 1. Install python-3.10.6-amd64.exe
     C:\Users\*\AppData\Local\Programs\Python\Python310
+Or Install Anaconda
 2. Install Notepad++
 3. Install Git
 4. Create folder: "C:\Stable_Diffusion"
