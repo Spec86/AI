@@ -9,11 +9,11 @@ Install Anaconda
     webui-user.bat
 
 В САМОЕ НАЧАЛО вставляем строку:
-    call conda activate sd
+    call "%USERPROFILE%\anaconda3\Scripts\activate.bat" sd
 
 Должно получиться:
     @echo off
-    call conda activate sd
+    call "%USERPROFILE%\anaconda3\Scripts\activate.bat" sd
 
     set PYTHON=
     set GIT=
