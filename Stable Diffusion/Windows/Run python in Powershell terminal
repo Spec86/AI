@@ -1,5 +1,10 @@
 Вход в интерактивный режим:
     & "C:\Program Files\Python310\python.exe"
+
+    import torch
+    print(torch.cuda.is_available())
+    print(torch.cuda.device_count())
+    print(torch.version.cuda)
     
     Для выхода из интерактивного режима:
         exit()
