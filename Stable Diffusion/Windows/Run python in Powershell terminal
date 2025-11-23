@@ -1,5 +1,5 @@
 Вход в интерактивный режим:
-    & "C:\Program Files\Python310\python.exe"
+    & "C:\Users\Ed\AppData\Local\Programs\Python\Python310\python.exe"
 
     import torch
     print(torch.cuda.is_available())
@@ -13,4 +13,4 @@
 
 Установка библиотек глобально:
 В PowerShell вводим не заходя в Python:
-& "C:\Program Files\Python310\python.exe" -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+& "C:\Users\Ed\AppData\Local\Programs\Python\Python310\python.exe" -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
