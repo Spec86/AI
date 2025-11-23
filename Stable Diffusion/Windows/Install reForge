@@ -14,6 +14,12 @@ git branch -u reForge/main
 git stash
 git pull
 
+git merge --abort
+git checkout master
+git branch -D Panchovix/main
+git status
+git checkout -b Panchovix/main reForge/main
+
 To go back to OG A1111, just do "git checkout master" or git checkout main.
 If you got stuck in a merge to resolve conflicts, you can go back with "git merge --abort"
 
