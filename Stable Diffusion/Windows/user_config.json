@@ -1,0 +1,11 @@
+{
+  "max_vram_usage": 16,
+  "enable_pin_shared_memory": true,
+  "enable_cuda_malloc": true,
+  "enable_cuda_stream": true,
+  "xformers": true,
+  "opt_split_attention": true,
+  "no_half_vae": true,
+  "lowram": true,
+  "batch_size": 1
+}
