@@ -1,0 +1,23 @@
+Install Anaconda
+    Go to Anaconda Prompt
+    conda create -n sd python=3.10.6
+    cd C:\Stable_Diffusion\stable-diffusion-webui
+    python launch.py
+
+Починить webui-user.bat, чтобы работать через Conda
+Открываем файл:
+    webui-user.bat
+
+В САМОЕ НАЧАЛО вставляем строку:
+    call conda activate sd
+
+Должно получиться:
+    @echo off
+    call conda activate sd
+
+    set PYTHON=
+    set GIT=
+    set VENV_DIR=
+    set COMMANDLINE_ARGS=
+
+    call webui.bat
