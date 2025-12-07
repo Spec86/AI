@@ -1,0 +1,1 @@
+python_embeded\python.exe -m pip install insightface-0.7.3-cp312-cp312-win_amd64.whl
