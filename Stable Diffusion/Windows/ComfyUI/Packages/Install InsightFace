@@ -1,4 +1,4 @@
 Go to:    C:\ComfyUI
 Run CMD
 
-python_embeded\python.exe -m pip install insightface-0.7.3-cp312-cp312-win_amd64.whl
+python_embeded\python.exe -m pip install C:\COMFYUI_FILES\Packages\insightface-0.7.3-cp312-cp312-win_amd64.whl
