@@ -4,4 +4,4 @@ Dowload for python 12 file in Raw format: insightface-0.7.3-cp312-cp312-win_amd6
 Go to:    C:\ComfyUI
 Run CMD
 
-python_embeded\python.exe -m pip install C:\COMFYUI_FILES\Packages\insightface-0.7.3-cp312-cp312-win_amd64.whl
+python_embeded\python.exe -m pip install "C:\COMFYUI_FILES\Packages\insightface-0.7.3-cp312-cp312-win_amd64.whl"
