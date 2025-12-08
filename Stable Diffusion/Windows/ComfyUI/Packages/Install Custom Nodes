@@ -1,0 +1,5 @@
+Drop the folder of custom node (ComfyUI-Crystools) to this path:     C:\ComfyUI\ComfyUI\custom_nodes\
+
+Go to:    C:\ComfyUI
+Run CMD
+python_embeded\python.exe -m pip install -r "C:\ComfyUI\ComfyUI\custom_nodes\ComfyUI-Crystools\requirements.txt"
