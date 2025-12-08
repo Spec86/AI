@@ -1,0 +1,4 @@
+Go to:    C:\ComfyUI
+Run CMD
+
+python_embeded\python.exe -m pip uninstall xformers
